@@ -4,7 +4,7 @@ package httpapi.authz
 subordinates = {
 	"alice": [],
 	"charlie": [],
-	"bob": ["alice"],
+	"bob": ["alice", "charlie"],
 	"betty": ["charlie"],
 }
 
